@@ -7,7 +7,7 @@ var elementContainer = $("#generated-element-container")
 //})
   
 $("#make-green-element").click(function() {  
-    var newElement = $("<div>I guess green is better!</div>")
+    var newElement = $("<div>I love grass and trees!</div>")
     newElement.css({background: "blue"})      elementContainer.append(newElement)
 })
     
